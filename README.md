@@ -2,8 +2,10 @@
 
 
 =============== FRONTEND PART ====================
+
 STEP 1 
 INSTALL ANGULAR CLI FOR IMPLEMENTING FRONTEND
+
 COMMAND - npm install -g @angular/cli
 
 STEP 2 
@@ -20,7 +22,8 @@ COMMAND - ng serve
 
 =============== BACKEND PART =====================
 
-BACKEND PROJECT - 
+BACKEND PROJECT - https://github.com/Nambi941999/ToDoList_Backend
+
 
 STEP 5
 INSTALL STS FOR IMPLEMENTATING BACKEND
