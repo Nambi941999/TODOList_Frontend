@@ -1,0 +1,32 @@
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">SR.No</th>
+            <th scope="col">Id</th>
+
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Task</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody  >
+          <tr *ngFor="let res of result let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{res.id}}</td>
+            <td>{{res.name}}</td>
+            <td>{{res.email}}</td>
+            <td>{{res.task}}</td>
+            <td>
+              <button type="button"  (click)="update(res.id)" class="btn btn-success btn-sm mx-2" >Edit</button>
+                <button type="button" (click)="delete(res.id)" class="btn btn-danger btn-sm">Delete</button>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+</div>
+
+
